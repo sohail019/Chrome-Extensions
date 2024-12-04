@@ -1,0 +1,12 @@
+body{
+    width: 300px;
+    height: 300px
+}
+
+h1{
+    color: red
+}
+
+#name{
+    color: blue
+}
