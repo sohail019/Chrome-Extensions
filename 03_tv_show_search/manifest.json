@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "TV Show Search",
+  "version": "1.0.0",
+  "description": "TV Show Search lets you quickly search for TV shows, set reminders for upcoming episodes, and stay updated with notifications. Simple, easy, and customizable!",
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "TV Show Search",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["contextMenus", "search", "tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options/options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://google.com/*"],
+      "css": ["contentScript.css"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}

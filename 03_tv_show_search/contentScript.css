@@ -1,0 +1,12 @@
+body {
+    background-color: red !important;
+}
+
+.logo {
+    background-color: black !important;
+    background-image: url('icon.png') !important; /* Add your image URL here */
+    background-size: cover !important; /* Ensures the image covers the element */
+    background-position: center !important; /* Positions the image in the center */
+    width: 92px !important; /* Optional: set the width of the logo */
+    height: 30px !important; /* Optional: set the height of the logo */
+}
