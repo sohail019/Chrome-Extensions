@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "React Webpack Extension",
+  "version": "1.0",
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "description": "React Webpack Extension by Sohail Shaikh",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "React Webpack Extension"
+  },
+  "options_page": "options.html"
+}
