@@ -1,0 +1,11 @@
+{
+  "name": "05_react_webpack",
+  "version": "1.0.0",
+  "description": "Basic React Extension Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sohail Shaikh",
+  "license": "UNLICENSED"
+}
